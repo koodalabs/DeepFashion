@@ -194,7 +194,7 @@ def load_data(data_dir, args):
     # Paths
     # data_dir = os.path.join(data_dir, args.polyvore_split)
     outfit_data_path = os.path.join(data_dir, args.polyvore_split, f'{args.dataset_type}.json')
-    meta_data_path = os.path.join(data_dir, 'polyvore_item_metadata.json')
+    meta_data_path = os.path.join(data_dir, '/.json')
     outfit_data = json.load(open(outfit_data_path))
     meta_data = json.load(open(meta_data_path))
     # Load
